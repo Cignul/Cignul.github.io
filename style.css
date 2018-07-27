@@ -1,0 +1,23 @@
+body, html{
+    height: 100%;
+}
+
+.hero-image{
+    background-image: url(countryroad.jpg);
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text{
+    /* text-justify: center; */
+    text-align: center;
+    /* position: absolute; */
+    justify-content: center;
+
+    top: 50%;
+    left: 50%;
+    color: white;
+}
